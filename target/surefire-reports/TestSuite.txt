@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 0.984 s <<< FAILURE! - in TestSuite
+beforeMethod(Test.SampleTest)  Time elapsed: 0.761 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method beforeMethod but has not been marked @Optional or defined
+in E:\QA_DOC\Eclipse\Jenkins\Jenkins_Demo2\runtime\testng.xml
+
